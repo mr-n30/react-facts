@@ -1,5 +1,7 @@
 * {
-    box-sizing: border;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -8,65 +10,91 @@ html, body {
 }
 
 body {
-    color: #fff;
-    background-color: #242320;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
 }
 
 #root {
-    height: 100%;
-    width: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border: 5px solid #F4EBE6;
+  border-radius: 8px;
+  width: 610px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
-.content {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.1rem;
+header {
+  border-radius: 8px 8px 0 0;
+  height: 90px;
+  background-color: #0e1111;
+  padding: 30px 25px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list > li {
-    margin-right: 10px;
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .nav-logo {
-    width: 50px;
+  width: 50px;
+  margin-right: 7px;
 }
 
-main {
-    width: 100%;
+nav > span {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 hr {
-    width: 100%;
+  width: 90%;
+  margin-top: .85rem;
+}
+
+main {
+  flex: 1;
+  color: #F4EBE6;
+  background-color: #232b2b;
+  padding: .6rem 0;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main > ul {
+  padding: 0 4rem;
+}
+
+main > h1 {
+  color: #F4EBE6;
+}
+
+main > ul > li {
+  margin: 25px 0;
+}
+
+main > ul > li::marker {
+  color: #61DAFB;
+  font-size: 2rem;
 }
 
 footer {
-    color: #fff;
-    background-color: #000;
-    width: 100%;
-    text-align: center;
-    padding: .1rem;
-    border-radius: 4px;
+  color: #F4EBE6;
+  text-align: center;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #0e1111;
+  border-radius: 0 0 8px 8px;
+  border-top: none;
 }
 
-.react-reasons {
-    padding-left: 1.11rem;
-}

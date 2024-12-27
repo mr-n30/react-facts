@@ -18,7 +18,7 @@ npm run dev
 ---
 
 ## ReactFacts 
-![image](https://github.com/user-attachments/assets/a3f2fbf5-6583-46f2-942c-2ea06e357943)
+![image](https://github.com/user-attachments/assets/8e26ec27-6eaf-47bd-8af2-def828d928fe)
 
 ---
 

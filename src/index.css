@@ -60,7 +60,7 @@ main {
   flex: 1;
   color: #F4EBE6;
   background-color: #232b2b;
-  background-image: url(/react-facts/src/assets/images/react-logo-gray.png);
+  background-image: url(/src/assets/images/react-logo-gray.png);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position-x: 550%;
